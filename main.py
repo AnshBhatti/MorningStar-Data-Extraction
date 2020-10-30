@@ -3,6 +3,7 @@ import selenium
 import pandas as pd
 from time import sleep, time
 from contextlib import suppress
+x=input()
 browser=webdriver.Chrome("C:/Users/Ansh/Documents/chromedriver.exe")
 browser.implicitly_wait(20)
 browser.get("https://www.morningstar.com")
